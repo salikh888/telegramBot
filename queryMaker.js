@@ -1,4 +1,4 @@
-const config = require('../../configFile');
+const config = require('./configFile');
 
 export function queryMaker(message) {
     const nameFilm = message.slice(6);
