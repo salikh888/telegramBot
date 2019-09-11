@@ -1,0 +1,28 @@
+{
+  "name": "telegrambot.local",
+  "version": "1.0.0",
+  "description": "Телеграм Бот",
+  "main": "bot.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salikh888/telegramBot.git"
+  },
+  "author": "Salikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salikh888/telegramBot/issues"
+  },
+  "homepage": "https://github.com/salikh888/telegramBot#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "http": "0.0.0",
+    "needle": "^2.4.0",
+    "request-promise": "^4.2.4",
+    "telegraf": "^3.32.0",
+    "typescript": "^3.6.2"
+  }
+}
